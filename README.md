@@ -9,5 +9,6 @@ I am a fourth-year computer Science student at United College of Engineering & R
 	• 📊 Building dynamic dashboards using Power BI and SQL
 
 🌐 Connect with me:
+ [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kulsoomfatima)
 
 
