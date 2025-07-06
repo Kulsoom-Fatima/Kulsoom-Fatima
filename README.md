@@ -10,7 +10,8 @@ I am a fourth-year computer Science student at United College of Engineering & R
 
 🌐 Connect with me:
 
- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kulsoom-fatima-5b4205362/)  [![Email](https://img.shields.io/badge/Email-kulsoom%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](kulsoomfatima055@gmail.com)
+ [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kulsoom-fatima-5b4205362/) 
+[![Gmail](https://img.shields.io/badge/Gmail-kulsoom@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](kulsoomfatima055@gmail.com)
 
 💻 Tech Stack:
 
