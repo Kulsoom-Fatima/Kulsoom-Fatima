@@ -14,4 +14,7 @@ I am a fourth-year computer Science student at United College of Engineering & R
 
 💻 Tech Stack:
 
-Languages:![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)  |[SQL](https://img.shields.io/badge/SQL-MySQL%20%7C%20PostgreSQL%20%7C%20SQLite-blue?style=for-the-badge&logo=postgresql&logoColor=white)   |[HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)  |[CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+Languages:![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-MySQL%20%7C%20PostgreSQL%20%7C%20SQLite-blue?style=for-the-badge&logo=postgresql&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+
+
