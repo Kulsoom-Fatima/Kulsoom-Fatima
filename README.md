@@ -25,7 +25,7 @@ I am a fourth-year computer Science student at United College of Engineering & R
 
           Jupyter Notebooks | Streamlit | Power BI
 
-        •🧠 ML/NLP Libraries:
+        •🧠 ML Libraries:
 
           Matplotlib | Pandas | NumPy
 
