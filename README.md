@@ -10,9 +10,13 @@ I am a fourth-year computer Science student at United College of Engineering & R
 
 🌐 Connect with me:
 
- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kulsoom-fatima-5b4205362/)
+ [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kulsoom-fatima-5b4205362/)  [![Email](https://img.shields.io/badge/Email-kulsoom%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](kulsoomfatima055@gmail.com)
 
 💻 Tech Stack:
+
+        •💻 Languages:
+
+          Python | SQL | HTML | CSS
 
         •👩‍💻 Developer Tools:
 
@@ -22,9 +26,7 @@ I am a fourth-year computer Science student at United College of Engineering & R
 
           Matplotlib | Pandas | NumPy
 
-        •💻 Languages:
-
-          Python | SQL | HTML | CSS
+        
 
 
 
