@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Therapy Assistant - Compassionate Support</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-heart"></i>
+                    <h1>AI Therapy Assistant</h1>
+                </div>
+                <p class="tagline">Your compassionate digital companion for emotional wellness</p>
+            </div>
+        </header>
+
+        <!-- Main Chat Interface -->
+        <main class="main-content">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="status-indicator">
+                        <span class="status-dot online"></span>
+                        <span>Ready to listen</span>
+                    </div>
+                    <button class="session-summary-btn" onclick="showSessionSummary()">
+                        <i class="fas fa-chart-line"></i>
+                        Session Summary
+                    </button>
+                </div>
+
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message welcome-message">
+                        <div class="message-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="message-content">
+                            <p>Hello! I'm here to provide you with a safe, supportive space to share your thoughts and feelings. You can speak to me using your voice or type your message. How are you feeling today?</p>
+                            <div class="message-meta">
+                                <span class="timestamp">Just now</span>
+                                <button class="play-audio-btn" onclick="speakText(this)" data-text="Hello! I'm here to provide you with a safe, supportive space to share your thoughts and feelings. You can speak to me using your voice or type your message. How are you feeling today?">
+                                    <i class="fas fa-volume-up"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <!-- Voice Input -->
+                    <div class="voice-input-section">
+                        <button class="voice-btn" id="voiceBtn" onclick="toggleRecording()">
+                            <i class="fas fa-microphone"></i>
+                            <span class="voice-status">Click to speak</span>
+                        </button>
+                        <div class="recording-indicator" id="recordingIndicator">
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                        </div>
+                    </div>
+
+                    <!-- Text Input -->
+                    <div class="text-input-section">
+                        <div class="input-group">
+                            <textarea 
+                                id="messageInput" 
+                                placeholder="Type your message here or use voice input above..."
+                                rows="3"
+                                onkeypress="handleKeyPress(event)"
+                            ></textarea>
+                            <button class="send-btn" onclick="sendMessage()">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sentiment Dashboard -->
+            <div class="sentiment-dashboard">
+                <h3><i class="fas fa-brain"></i> Emotional Insights</h3>
+                <div class="sentiment-display" id="sentimentDisplay">
+                    <div class="sentiment-item">
+                        <span class="sentiment-label">Current Mood:</span>
+                        <span class="sentiment-value" id="currentMood">Ready to begin</span>
+                    </div>
+                    <div class="sentiment-confidence">
+                        <span class="confidence-label">Confidence:</span>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" id="confidenceFill"></div>
+                        </div>
+                        <span class="confidence-value" id="confidenceValue">--</span>
+                    </div>
+                </div>
+                <div class="coping-strategies" id="copingStrategies">
+                    <h4>Helpful Techniques:</h4>
+                    <ul id="strategiesList">
+                        <li>Take slow, deep breaths</li>
+                        <li>Practice mindfulness</li>
+                        <li>Focus on the present moment</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div class="loading-overlay" id="loadingOverlay">
+            <div class="loading-spinner">
+                <i class="fas fa-brain fa-spin"></i>
+                <p>Processing your message...</p>
+            </div>
+        </div>
+
+        <!-- Session Summary Modal -->
+        <div class="modal" id="sessionModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-chart-pie"></i> Session Summary</h2>
+                    <button class="close-btn" onclick="closeModal()">&times;</button>
+                </div>
+                <div class="modal-body" id="sessionSummaryContent">
+                    <!-- Session summary will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
